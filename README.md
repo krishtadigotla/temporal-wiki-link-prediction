@@ -5,8 +5,8 @@ This project trains a **temporal link prediction model** on the `tgbl-wiki` data
 
 ---
 
-## 📌 Project Summary
-Wikipedia contains millions of timestamped edits between **users** and **pages**. These interactions naturally form a **temporal graph** — edges appear over time rather than all at once.
+##📌 Project Summary
+Wikipedia records every user edit along with a timestamp. When analyzed over time, these edits reveal patterns in how users interact with different pages.
 
 To model this behavior, the project implements a **PyTorch-based temporal architecture** capable of learning **how user editing activity evolves over time**.
 
